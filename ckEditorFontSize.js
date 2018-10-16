@@ -1,7 +1,3 @@
-//
-// @name CKEditor Text Size
-// @version 1.0
-//
 /*
  * © Copyright IBM Corp. 2017, 2018
  *
@@ -17,6 +13,10 @@
  * implied. See the License for the specific language governing
  * permissions and limitations under the License.
  */
+//
+// @name CKEditor Text Size
+// @version 1.0
+//
 var CKEditorFontSizeLoader = setInterval(function() {
   if (typeof dojo != 'undefined') {
     clearInterval(CKEditorFontSizeLoader);
