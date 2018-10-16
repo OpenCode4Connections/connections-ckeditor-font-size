@@ -1,0 +1,17 @@
+.qkrWikiPreview,
+.entryContentContainer,
+.communityDescInHikari .communityOverview {
+  font-size: 18px;
+}
+
+.lotusPostDetails p {
+  font-size: 18px;
+}
+
+#calendar_event_viewer div[dojoattachpoint$='description'] {
+  font-size: 18px;
+}
+
+#calendar_view .lotusDetail .bidiAware {
+  font-size: 18px;
+}
