@@ -1,0 +1,25 @@
+{
+  "name": "ckeditorfontsize",
+  "title": "CKEditor Text Size",
+  "description": "Increases size of the default CKEditor font",
+  "services": ["Customizer"],
+  "state": "enabled",
+  "extensions": [
+    {
+      "name": "CKEditor Text Size",
+      "type": "com.ibm.customizer.ui",
+      "payload": {
+        "match": {
+           "url": "wikis|blogs|forums|communities"
+        },
+        "include-files": ["ckEditorFontSize.css", "ckEditorFontSize.js"],
+        "include-repo": {
+          "name": "connections-ckeditor-font-size"
+        }
+      },
+      "path": "global",
+      "application": "ckeditorfontsize",
+      "state": "enabled"
+    }
+  ]
+}
